@@ -1,8 +1,8 @@
-## Interface: 60200
-## Title: Target Class Icon
-## Author: Montinevra#1437
-## Version: 6.2:1.2
-## Notes: Adds a class icon to the target frame.
+## Interface: 80100
+## Title: Target Class Icon
+## Author: Montinevra#1437
+## Version: 8.1:1.2
+## Notes: Adds a class icon to the target frame.
 
-TargetClassIcon.xml
-TargetClassIcon.lua
+TargetClassIcon.xml
+TargetClassIcon.lua
