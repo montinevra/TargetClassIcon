@@ -2,8 +2,8 @@
 	<Frame name="TargetClassIconFrame" parent="TargetFrame">
 		<Size> <AbsDimension x="42" y="72" /> </Size>
 		<Anchors>
-			<Anchor point="CENTER"> 
-				<Offset> <AbsDimension x="-124" y="3" /> </Offset> 
+			<Anchor point="TOPLEFT"> 
+				<Offset> <AbsDimension x="-19" y="-8" /> </Offset> 
 			</Anchor>
 		</Anchors>
 		<Layers>
@@ -11,32 +11,28 @@
 				<Texture name="TargetFaction" file="Interface/Glues/CHARACTERCREATE/UI-CHARACTERCREATE-BANNERS">
 					<Size> <AbsDimension x="20" y="40" /> </Size>
 					<Anchors>
-						<Anchor point="TOP"> 
-							<Offset> <AbsDimension x="0" y="-20" /> </Offset> 
+						<Anchor point="TOPLEFT"> 
+							<Offset> <AbsDimension x="1" y="-20" /> </Offset> 
 						</Anchor>
 					</Anchors>
 				</Texture>
 			</Layer>
 			<Layer level="ARTWORK">
-				<Texture name ="TargetClassIcon" file="Interface/TARGETINGFRAME/UI-CLASSES-CIRCLES.BLP">
-					<Size> <AbsDimension x="20" y="20" /> </Size>
+				<Texture name ="TargetClassIcon" file="Interface/Glues/CHARACTERCREATE/UI-CharacterCreate-Classes">
+					<Size> <AbsDimension x="23" y="23" /> </Size>
 					<Anchors>
-						<Anchor point="TOP"> 
-							<Offset> <AbsDimension x="0" y="-11" /> </Offset> 
+						<Anchor point="TOPLEFT"> 
+							<Offset> <AbsDimension x="0" y="-12" /> </Offset> 
 						</Anchor>
 					</Anchors>
 				</Texture>
 			</Layer>
 			<Layer level="OVERLAY">
-				<Texture name ="TargetClassIconBorder" file="Interface/UNITPOWERBARALT/WowUI_Circular_Frame.blp">
-					<Size> <AbsDimension x="43" y="43" /> </Size>
-					<Anchors> <Anchor point="CENTER" relativeTo="TargetClassIcon" /> </Anchors>
-				</Texture>
 				<FontString name="TargetType" font="Fonts/FRIZQT__.TTF" outline="NORMAL">
 					<FontHeight val="9"/>
 					<Anchors> 
-						<Anchor point="BOTTOMLEFT" relativePoint="TOPLEFT">
-							<Offset> <AbsDimension x="10" y="-6" /> </Offset>
+						<Anchor point="TOPLEFT">
+							<Offset> <AbsDimension x="0" y="0" /> </Offset>
 						</Anchor>
 					</Anchors>
 				</FontString>
