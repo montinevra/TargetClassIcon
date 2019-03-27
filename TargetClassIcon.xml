@@ -3,7 +3,7 @@
 		<Size> <AbsDimension x="42" y="72" /> </Size>
 		<Anchors>
 			<Anchor point="TOPLEFT"> 
-				<Offset> <AbsDimension x="-19" y="-8" /> </Offset> 
+				<Offset> <AbsDimension x="-19" y="-9" /> </Offset> 
 			</Anchor>
 		</Anchors>
 		<Layers>
