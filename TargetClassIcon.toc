@@ -1,8 +1,8 @@
-## Interface: 80100
+## Interface: 80200
 ## Title: Target Class Icon
 ## Author: Montinevra#1437
-## Version: 8.1-1.2.1
-## Notes: Adds a class icon to the target frame.
+## Version: 8.2-1.2.1
+## Notes: Adds class, creature type, and faction info to the target frame.
 
 TargetClassIcon.xml
 TargetClassIcon.lua
