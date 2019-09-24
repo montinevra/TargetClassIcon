@@ -9,7 +9,7 @@
 		<Layers>
 			<Layer level="BACKGROUND">
 				<Texture name="TargetFaction" file="Interface/Glues/CHARACTERCREATE/Race-Change-BannerCover">
-					<Size> <AbsDimension x="17" y="30" /> </Size>
+					<Size> <AbsDimension x="16" y="30" /> </Size>
 					<Anchors>
 						<Anchor point="TOPLEFT"> 
 							<Offset> <AbsDimension x="3" y="-29" /> </Offset> 
