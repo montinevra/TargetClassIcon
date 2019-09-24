@@ -8,11 +8,11 @@
 		</Anchors>
 		<Layers>
 			<Layer level="BACKGROUND">
-				<Texture name="TargetFaction" file="Interface/Glues/CHARACTERCREATE/UI-CHARACTERCREATE-BANNERS">
-					<Size> <AbsDimension x="20" y="40" /> </Size>
+				<Texture name="TargetFaction" file="Interface/Glues/CHARACTERCREATE/Race-Change-BannerCover">
+					<Size> <AbsDimension x="17" y="30" /> </Size>
 					<Anchors>
 						<Anchor point="TOPLEFT"> 
-							<Offset> <AbsDimension x="1" y="-20" /> </Offset> 
+							<Offset> <AbsDimension x="3" y="-29" /> </Offset> 
 						</Anchor>
 					</Anchors>
 				</Texture>
