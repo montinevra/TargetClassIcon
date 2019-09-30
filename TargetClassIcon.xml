@@ -7,16 +7,6 @@
 			</Anchor>
 		</Anchors>
 		<Layers>
-			<Layer level="BACKGROUND">
-				<Texture name="TargetFaction" file="Interface/Glues/CHARACTERCREATE/Race-Change-BannerCover">
-					<Size> <AbsDimension x="16" y="30" /> </Size>
-					<Anchors>
-						<Anchor point="TOPLEFT"> 
-							<Offset> <AbsDimension x="3" y="-29" /> </Offset> 
-						</Anchor>
-					</Anchors>
-				</Texture>
-			</Layer>
 			<Layer level="ARTWORK">
 				<Texture name ="TargetClassIcon" file="Interface/Glues/CHARACTERCREATE/UI-CharacterCreate-Classes">
 					<Size> <AbsDimension x="23" y="23" /> </Size>
@@ -26,20 +16,29 @@
 						</Anchor>
 					</Anchors>
 				</Texture>
-			</Layer>
-			<Layer level="OVERLAY">
-				<FontString name="TargetSpec" font="Fonts/FRIZQT__.TTF" outline="NORMAL">
-					<FontHeight val="9"/>
-					<Anchors> 
-						<Anchor point="TOPLEFT">
-							<Offset> <AbsDimension x="0" y="0" /> </Offset>
+				<Texture name ="TargetSpecIcon">
+					<Size> <AbsDimension x="23" y="23" /> </Size>
+					<Anchors>
+						<Anchor point="TOP" relativeTo="TargetClassIcon" relativePoint="BOTTOM"> 
 						</Anchor>
 					</Anchors>
-				</FontString>
+				</Texture>
+			</Layer>
+			<Layer level="BACKGROUND">
+				<Texture name="TargetFaction" file="Interface/Glues/CHARACTERCREATE/Race-Change-BannerCover">
+					<Size> <AbsDimension x="16" y="30" /> </Size>
+					<Anchors>
+						<Anchor point="TOP" relativeTo="TargetSpecIcon" relativePoint="BOTTOM"> 
+							<Offset> <AbsDimension x="0" y="5" /> </Offset> 
+						</Anchor>
+					</Anchors>
+				</Texture>
+			</Layer>
+			<Layer level="OVERLAY">
 				<FontString name="TargetType" font="Fonts/FRIZQT__.TTF" outline="NORMAL">
 					<FontHeight val="9"/>
 					<Anchors> 
-						<Anchor point="BOTTOMLEFT" relativePoint="TOPLEFT">
+						<Anchor point="TOPLEFT">
 							<Offset> <AbsDimension x="0" y="0" /> </Offset>
 						</Anchor>
 					</Anchors>

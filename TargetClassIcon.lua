@@ -7,17 +7,24 @@ TargetClassIconFrame:RegisterEvent("UNIT_AURA")
 TargetClassIconFrame:RegisterEvent("PLAYER_SPECIALIZATION_CHANGED")
 TargetClassIconFrame:SetScript("OnEvent", 
 	function (self, event, ...)
+		local spec_id
+		local spec_name
+		local spec_icon
+
 		if event == "PLAYER_TARGET_CHANGED" or (event == "PLAYER_SPECIALIZATION_CHANGED" and ... == "target") then
-			TargetSpec:SetText("")
+			TargetSpecIcon:Hide()
 			if CanInspect("target") then
 				NotifyInspect("target")
 				TargetClassIconFrame:RegisterEvent("INSPECT_READY")
 			end
 		end
 		if event == "INSPECT_READY" then
-			ClearInspectPlayer()
-			TargetSpec:SetText(select(2, GetSpecializationInfoByID(GetInspectSpecialization("target"))))
+			spec_id = GetInspectSpecialization("target")
+			_, spec_name, _, spec_icon = GetSpecializationInfoByID(spec_id)
+			TargetSpecIcon:SetTexture(spec_icon)
+			TargetSpecIcon:Show()
 			TargetClassIconFrame:UnregisterEvent("INSPECT_READY")
+			ClearInspectPlayer()
 		end
 		if event == "PLAYER_TARGET_CHANGED" or (event == "UNIT_AURA" and ... == "target" ) then
 			TargetType:SetText(UnitCreatureType("target"))

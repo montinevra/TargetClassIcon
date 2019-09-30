@@ -1,8 +1,8 @@
 ## Interface: 80205
 ## Title: Target Class Icon
 ## Author: Montinevra#1437
-## Version: 1.3.0-8.2.5
-## Notes: Adds class, spec, creature type, faction info, and Oxford commas to the target frame.
+## Version: 1.3.1-8.2.5
+## Notes: Adds class, spec, creature type, faction, and Oxford commas to the target frame.
 
 TargetClassIcon.xml
 TargetClassIcon.lua
