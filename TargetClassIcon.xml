@@ -28,10 +28,18 @@
 				</Texture>
 			</Layer>
 			<Layer level="OVERLAY">
-				<FontString name="TargetType" font="Fonts/FRIZQT__.TTF" outline="NORMAL">
+				<FontString name="TargetSpec" font="Fonts/FRIZQT__.TTF" outline="NORMAL">
 					<FontHeight val="9"/>
 					<Anchors> 
 						<Anchor point="TOPLEFT">
+							<Offset> <AbsDimension x="0" y="0" /> </Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="TargetType" font="Fonts/FRIZQT__.TTF" outline="NORMAL">
+					<FontHeight val="9"/>
+					<Anchors> 
+						<Anchor point="BOTTOMLEFT" relativePoint="TOPLEFT">
 							<Offset> <AbsDimension x="0" y="0" /> </Offset>
 						</Anchor>
 					</Anchors>
