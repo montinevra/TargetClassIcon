@@ -8,7 +8,6 @@ TargetClassIconFrame:RegisterEvent("PLAYER_SPECIALIZATION_CHANGED")
 TargetClassIconFrame:SetScript("OnEvent", 
 	function (self, event, ...)
 		local spec_id
-		local spec_name
 		local spec_icon
 
 		if event == "PLAYER_TARGET_CHANGED" or (event == "PLAYER_SPECIALIZATION_CHANGED" and ... == "target") then
@@ -20,7 +19,7 @@ TargetClassIconFrame:SetScript("OnEvent",
 		end
 		if event == "INSPECT_READY" then
 			spec_id = GetInspectSpecialization("target")
-			_, spec_name, _, spec_icon = GetSpecializationInfoByID(spec_id)
+			spec_icon = select(4, GetSpecializationInfoByID(spec_id))
 			TargetSpecIcon:SetTexture(spec_icon)
 			TargetSpecIcon:Show()
 			TargetClassIconFrame:UnregisterEvent("INSPECT_READY")
