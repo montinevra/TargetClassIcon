@@ -1,0 +1,36 @@
+1.3.1-8.2.5
+Retail: added spec icon.
+
+1.2.2-1.13.2
+New version numbering convention: add.on.version-cli.ent.version
+Retail and Classic are separate uploads now.
+Classic: updated .toc to 1.13.2. No more having to Load Out of Date Addons
+
+8.2-1.2.2
+Changed the faction texture to be consistent between Retail and Classic.
+Updated .toc to 8.2.5.
+
+8.1-1.2.1
+Change the class icon to the square version. It looks a little nicer.
+Update .toc to... wow I missed a few patches.
+
+7.1:1.2
+Updated .toc to whatever the latest version is.
+
+6.2:1.2
+Updated .toc for patch 6.2.
+
+6.1-1.2
+Updated .toc for patch 6.1.
+Converted much of the frame creation code to XML. The performance increase is negligible, but it's good practice.
+Various other code optimizations.
+
+6.0-1.1
+Updated .toc for patch 6.0.
+
+5.4-1.1
+Faction info is now represented by a colored banner under the class icon. Faction info now only appears for players and not npcs. Removed "player" tag.
+
+5.4-1.0
+Initial release.
+
