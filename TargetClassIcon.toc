@@ -5,5 +5,6 @@
 ## Notes: Adds class, spec, creature type, faction, and Oxford commas to the target frame.
 
 TargetClassIcon.xml
+TargetSpecIcon.xml
 TargetClassIcon.lua
 TargetSpecIcon.lua

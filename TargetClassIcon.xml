@@ -39,23 +39,4 @@
 			</Layer>
 		</Layers>
 	</Frame>
-	<Frame name="TargetSpecIconFrame" parent="TargetFrame">
-		<Size> <AbsDimension x="42" y="72" /> </Size>
-		<Anchors>
-			<Anchor point="TOPLEFT"> 
-				<Offset> <AbsDimension x="-19" y="-9" /> </Offset> 
-			</Anchor>
-		</Anchors>
-		<Layers>
-			<Layer level="ARTWORK">
-				<Texture name ="TargetSpecIcon">
-					<Size> <AbsDimension x="23" y="23" /> </Size>
-					<Anchors>
-						<Anchor point="TOP" relativeTo="TargetClassIcon" relativePoint="BOTTOM"> 
-						</Anchor>
-					</Anchors>
-				</Texture>
-			</Layer>
-		</Layers>
-	</Frame>
 </Ui>
