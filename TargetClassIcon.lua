@@ -15,7 +15,7 @@ TargetClassIconFrame:SetScript("OnEvent",
 			if targetClass then 
 				TargetClassIcon:SetTexCoord(unpack(CLASS_ICON_TCOORDS[targetClass]))
 			end
-			if UnitIsPlayer("target") and targetFaction~="Neutral" then
+			if UnitPlayerControlled("target") and targetFaction~="Neutral" then
 				TargetFaction:SetTexCoord(unpack(factionIconCoords[targetFaction]))
 				TargetFaction:Show()
 			else
