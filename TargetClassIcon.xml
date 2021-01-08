@@ -18,11 +18,11 @@
 				</Texture>
  			</Layer>
 			<Layer level="BACKGROUND">
-				<Texture name="TargetFaction" file="Interface/Glues/CHARACTERCREATE/Race-Change-BannerCover">
-					<Size> <AbsDimension x="16" y="30" /> </Size>
+				<Texture name="TargetFaction" file="Interface/Glues/CHARACTERCREATE/UI-CharacterCreate-Factions">
+					<Size> <AbsDimension x="23" y="23" /> </Size>
 					<Anchors>
 						<Anchor point="TOP" relativeTo="TargetClassIcon" relativePoint="BOTTOM"> 
-							<Offset> <AbsDimension x="0" y="5" /> </Offset> 
+							<Offset> <AbsDimension x="0" y="0" /> </Offset> 
 						</Anchor>
 					</Anchors>
 				</Texture>
