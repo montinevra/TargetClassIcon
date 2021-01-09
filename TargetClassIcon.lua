@@ -1,5 +1,5 @@
 local factionIconCoords = {
-	["Alliance"] = {1,.5,0,1},
+	["Alliance"] = {0,.5,0,1},
 	["Horde"] = {.5,1,0,1}
 }
 local classIconCoords = {
